@@ -1,0 +1,12 @@
+{
+    "role": {
+        "name": "SDI_QAS::analytics",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

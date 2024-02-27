@@ -1,0 +1,20 @@
+{
+    "role":{
+        "name": "SDI_QAS::EXTERNAL_ACCESS_G#",
+        "schema_privileges":[
+            {
+                "privileges_with_grant_option": [
+                    "SELECT"
+                ]
+            }
+        ],
+        "object_privileges":[  
+            {  
+                "name":"DT_%",
+                "type":"TABLE",
+                "privileges_with_grant_option":[ "SELECT" ],
+                "pattern_mode": "include"
+            }
+        ]
+    }
+}

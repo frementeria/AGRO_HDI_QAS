@@ -1,0 +1,20 @@
+{
+    "role":{
+        "name": "SDI_QAS::EXTERNAL_ACCESS",
+        "schema_privileges":[
+            {
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ],
+        "object_privileges":[  
+            {  
+                "name":"DT_%",
+                "type":"TABLE",
+                "privileges":[ "SELECT" ],
+                "pattern_mode": "include"
+            }
+        ]
+    }
+}
